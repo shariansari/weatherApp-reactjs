@@ -36,7 +36,7 @@ function App() {
         <h1 className="heading">Weather App</h1>
       <div className="d-grid gap-3 col-4 mt-4 center">
           <input type="text" className="form-control" value={city} onChange={cityHandler} onKeyPress={keyHandler} />
-          <button className="btn  btn-primary" type="button" onClick={searchHandler}>Search</button>
+          <button className="btn  btn-primary" type="button" onClick={searchHandler} >Search</button>
         </div>
       </div>
       <div className="col-md-12 text-center mt-5">
