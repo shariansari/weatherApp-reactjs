@@ -12,7 +12,7 @@ function App() {
      axios.get(`https://api.openweathermap.org/data/2.5/weather?q=${city}&appid=17de51b2b6fb8b98a05912ba0faf98e6`)
      .then((response) => {
       setdata(response.data)
-     })
+     });
   }
   useEffect ( () =>{
     getWeatherinfo();
