@@ -1,0 +1,33 @@
+.weatherBg{
+  background: url("https://source.unsplash.com/random/1440x450/?landscape");
+  height: 50vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+
+
+
+.heading{
+  
+  color: white;
+  font-weight: 700;
+ 
+}
+.weatherResultBox{
+  margin: auto;
+  width: 400px;
+  height: 250px;
+}
+.weatherIcon{
+  width: 100px;
+  margin-top: 2rem;
+}
+.weatherCity{
+  font-size: 35px;
+}
+.weatherTemp{
+  font-size: 55px;
+  font-weight: 700;
+}
